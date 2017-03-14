@@ -12,3 +12,5 @@ Not all returned data is displayed.
 No Unit tests are included.
 
 GitIgnore has not been updated.
+
+Solution created with Visual Studio Community 2017 

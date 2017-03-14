@@ -1,0 +1,25 @@
+﻿@model HearingInterviewTest.Models.SwPersonDetailVM
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <div>
+            @if (Model.name == null)
+            {
+                <div>No items to dissplay</div>
+            }
+            @Html.DisplayFor(m => m.name);
+        </div>
+    </div>
+</body>
+</html>
